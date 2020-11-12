@@ -5,7 +5,7 @@
 
 const canvas = d3.select('.canva');
 const svg = canvas.append('svg')
-    .attr('width', 500)
+    .attr('width', '75%')
     .attr('height', 250);
 
 svg.append('circle')
@@ -20,3 +20,17 @@ svg.append('rect')
     .attr('width', 70)
     .attr('height', 60)
     .attr('fill', 'red');
+
+   svg.append('text').text('Sample')
+      .attr('x', 150)
+      .attr('y', 190)
+      .attr('font-size',30)
+      .attr('fill','red');
+
+    svg.append('text').text('Text')
+      .attr('stroke', 'green')
+      .attr('text-anchor', 'middle')
+      .attr('x', 150)
+      .attr('y', 240)
+      .attr('font-size', 60)
+      .attr('fill', 'grey') 

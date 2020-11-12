@@ -9,3 +9,4 @@ npx eslint .
  or
  npx eslint app.js
 
+SVG Elements on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element
