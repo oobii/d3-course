@@ -13,7 +13,11 @@ const myArrayOfObj = [
   {width: 25, height: 77, fill: 'green'},
   {width: 25, height: 20, fill: 'blue'},
 ];
-rect.data(myArrayOfObj)
+d3.json('data.json').then(data => {
+
+  console.log(data); 
+  
+  rect.data(data)
     .enter().append('rect')
     .attr('fill', d => d.fill)
     .attr('width', 25)
@@ -25,5 +29,20 @@ rect.data(myArrayOfObj)
     })
     .attr('y', (d, i) => {
       return 200 - d.height * 2;
-    });
+    }); 
+}
+);
+// rect.data(myArrayOfObj)
+//     .enter().append('rect')
+//     .attr('fill', d => d.fill)
+//     .attr('width', 25)
+//     .attr('height', (d, i) => {
+//       return d.height * 2;
+//     })
+//     .attr('x', (d, i) => {
+//       return i * (d.width + 1);
+//     })
+//     .attr('y', (d, i) => {
+//       return 200 - d.height * 2;
+//     });
 
