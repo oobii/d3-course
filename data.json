@@ -1,0 +1,32 @@
+[
+  {
+    "width": 25,
+    "height": 23,
+    "fill": "pink"
+  },
+  {
+    "width": 25,
+    "height": 53,
+    "fill": "blue"
+  },
+  {
+    "width": 25,
+    "height": 72,
+    "fill": "yellow"
+  },
+  {
+    "width": 25,
+    "height": 42,
+    "fill": "green"
+  },
+  {
+    "width": 25,
+    "height": 20,
+    "fill": "magenta"
+  },
+  {
+    "width": 25,
+    "height": 27,
+    "fill": "orange"
+  }
+]
