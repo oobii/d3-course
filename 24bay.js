@@ -17,7 +17,15 @@ for(let i=0; i<24; i++) {
     ar.push(Object.assign({},{slot: i, model: 'SSD'}))
 }
 
-
+// disk() function
+//const j = (slot, model) => ({slot: slot, model: model});
+// same as below because slor is used twice!
+const disk = (slot, model) => ({slot, model});
+ 
+const ar2 =[];
+for(let i=0; i<24; i++) {
+    ar2.push(disk(i,'SSD'));
+}
 
 
 const rect = svg.selectAll('rect');
