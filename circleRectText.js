@@ -1,4 +1,4 @@
-// import { svg } from "./d3.v6";
+d// import { svg } from "./d3.v6";
 
 // // d3.select("p")
 // // .style("color","red");
@@ -34,3 +34,5 @@ svg.append('rect')
       .attr('y', 240)
       .attr('font-size', 60)
       .attr('fill', 'grey') 
+
+
